@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:cornflowerblue;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: aliceblue;
+}
+
+.active{
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+img.align-center{
+    float: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+img.large{
+    width: 500px;
+    height: 250px;
+}
+
+.nieuws{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img.align-right{
+    float: right;
+    margin-left: 20px;
+}
+
+img.small{
+    height: 100px;
+    width: 100px;
+} 
+
+img.align-left{
+    float: left;
+}
+
+img.medium{
+    width: 200px;
+    height: 200px;
+}
+
+.tijden{
+    text-align: center;
+    float: center;
+}
+   
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main{
+    text-align: center;
+}
+
+h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+th{
+    background-color: cornflowerblue;
+}
+
+a{
+    background-color: cornflowerblue;
+    text-decoration: underline;  
+    text-decoration-color: black; 
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+table{
+float: right;
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: center; 
+}
+
+h4{
+    text-align: right;
+    margin-top: 20px;
+}
+
+td{
+    border:  1px solid;
+    padding: 7px;
+}
+
+.extensions{
+   border: 1px solid black;
+   padding: 20px;
+   width: 480px;
+   text-align: center;
+   border-radius: 10px;
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+}
+
+.keratine{
+    border: 1px solid black;
+   padding: 20px;
+   width: 480px;
+   text-align: center;
+   border-radius: 10px;
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+}
+
+footer{
+    margin-top: 250px;
+}
